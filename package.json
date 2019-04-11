@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "nyc --reporter=html --reporter=text mocha server/tests --recursive",
+    "test": "mocha server/tests --recursive",
     "coveralls": "nyc report --reporter=text-lcov | coveralls",
     "test-watch": "nodemon --exec \"npm test\""
   },
