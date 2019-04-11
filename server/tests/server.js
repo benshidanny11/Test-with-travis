@@ -1,6 +1,6 @@
 const request=require('supertest');
 const expect=require('chai').expect;
-var app=require('./server').app;
+var app=require('../server').app;
 
 describe('/',()=>{
 	it('Should return hello world response',(done)=>{

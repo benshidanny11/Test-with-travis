@@ -1,6 +1,6 @@
 const expect=require('chai').expect;
 
-const utils=require('./utils');
+const utils=require('../../utils/utils');
 it('Should add two numbers',()=>{
    var result=utils.add(23,50);
    //expect(result).to.be(73).to.be.a('number');
